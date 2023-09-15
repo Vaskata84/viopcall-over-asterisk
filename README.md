@@ -2,7 +2,7 @@
 voip call over astersik on linux with zoiper android client
 
 ## 1. install asterisk on ubuntu
-``` sudo apt install asterisk ```
+``` sudo apt install asterisk dahdi libpri1.4 ```
 
 
 
