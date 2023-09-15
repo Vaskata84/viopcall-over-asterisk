@@ -21,10 +21,10 @@ bindaddr=0.0.0.0
 srvlookup=yes
 videosupport=yes
 
-[alireza]
+[Vasko]
 type=friend
-username=alr
-callerid="mr alireza"<7001>
+username=vasko
+callerid="Vasil Dobchev"<7001>
 secret=1234
 host=dynamic
 context=ztest
@@ -39,11 +39,11 @@ allow=h264
 allow=vp8
 videosupport=yes
 
-[elyas]
+[Toshko]
 type=friend
-username=elyas
-callerid="haj elyas"<7002>
-secret=k1tk47
+username=Toshko
+callerid="Toshko Kolev"<7002>
+secret=1234
 hosT=dynamic
 context=ztest
 disallow=all
@@ -72,8 +72,8 @@ static=yes
 writeprotect=no
 clearglobalvars=no
 [ztest]
-exten => 7001,1,Dial(SIP/alireza)  
-exten => 7002,1,Dial(SIP/elyas)
+exten => 7001,1,Dial(SIP/Vasko)  
+exten => 7002,1,Dial(SIP/Toshko)
 ```
 
 ## 3. config zoiper on android
@@ -84,9 +84,9 @@ open zoiper -> config -> Account -> Add account -> Yes -> Manua configuration ->
 
 >phone 1 : 
 ```
-Account name : alireza
+Account name : Vasko
 Host : <linux ip>
-Username : alr
+Username : Vasko
 Password : 1234
 ```
 
@@ -94,9 +94,9 @@ Password : 1234
 
 >phone 2 : 
 ```
-Account name : elyas
+Account name : Toshko
 Host : <linux ip>
-Username : elyas
+Username : Toshko
 Password : 1234
 ```
 
