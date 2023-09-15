@@ -25,7 +25,7 @@ videosupport=yes
 type=friend
 username=vasko
 callerid="Vasil Dobchev"<7001>
-secret=1234
+secret=password
 host=dynamic
 context=ztest
 disallow=all
@@ -43,7 +43,7 @@ videosupport=yes
 type=friend
 username=Toshko
 callerid="Toshko Kolev"<7002>
-secret=1234
+secret=password
 hosT=dynamic
 context=ztest
 disallow=all
@@ -87,7 +87,7 @@ open zoiper -> config -> Account -> Add account -> Yes -> Manua configuration ->
 Account name : Vasko
 Host : <linux ip>
 Username : Vasko
-Password : 1234
+Password : password
 ```
 
 
@@ -97,7 +97,7 @@ Password : 1234
 Account name : Toshko
 Host : <linux ip>
 Username : Toshko
-Password : 1234
+Password : password
 ```
 
 congratulation :)
